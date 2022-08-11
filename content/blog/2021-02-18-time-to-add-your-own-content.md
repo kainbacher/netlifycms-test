@@ -1,9 +1,8 @@
 ---
-createdAt: 2021-02-18
+createdAt: 2022-08-11T21:10:30.441Z
 title: Time to add your own content
 description: Remove all of the .md-files in the /content folder and go at it!
 ---
-
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
 Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
@@ -22,10 +21,12 @@ albentes primaque sidera, omnia.
 Addidit nunc: finita tua celatos vacuos Morpheus tigridis videre. Et an in ne
 scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
 fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
-solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
+solacia: inpensior munere quae. Vivacisque **[nos has](http://www.orf.at)** elusaque Aeaciden altum
 oris ille convicia castique.
 
-```js{1,4}[posts.vue]
+![Alt](/img/ntn-boilerplate-preview-dark.png "ASDf")
+
+```js{1,4}\[posts.vue]
 formatDate(dateString) {
   const date = new Date(dateString)
   return date.toLocaleDateString(process.env.lang) || ''
